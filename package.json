@@ -1,0 +1,16 @@
+{
+  "name": "icrpg",
+  "version": "0.0.1",
+  "description": "Index Card RPG",
+  "main": "bin/server",
+  "scripts": {
+    "start": "node bin/server"
+  },
+  "author": "Jordan Blackman",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "latest",
+    "formidable": "latest",
+    "nedb": "latest"
+  }
+}

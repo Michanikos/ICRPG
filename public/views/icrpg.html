@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ICRPG</title>
+    <link rel="stylesheet" href="../css/foundation.css">
+    <link rel="stylesheet" href="../css/icrpg.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div>
+    <form class="top-bar">
+        <img type="button" src="../images/heart.png" width="5%" id="1">
+        <img type="button" src="../images/outline.png" width="5%" id="2">
+        <img type="button" src="../images/outline.png" width="5%" id="3">
+        <img type="button" src="../images/outline.png" width="5%" id="4">
+        <img type="button" src="../images/outline.png" width="5%" id="5">
+        <img type="button" src="../images/outline.png" width="5%" id="6">
+        <img type="button" src="../images/outline.png" width="5%" id="7">
+        <img type="button" src="../images/outline.png" width="5%" id="8">
+    </form>
+    <form id="max">
+    <label for="maxhp">Current HP?</label><input type="number" id="maxhp" width="20%">
+    </form>
+    <div class="cell-block">
+        <form>
+            <label for="enemynum">Number of Enemies?</label><input type="number" id="enemynum">
+        </form>
+    </div>
+    <form id="target">
+        <label for="targetThing">Target Number?</label><input type="number" id="targetThing">
+    </form>
+    <div class="text-center">
+        <p>The buttons that do things</p>
+    </div>
+    <div class="button-group align-center" id="groupButton">
+        <p class="button" id="die">Roll die</p>
+        <p class="button" id="combat">Start Combat</p>
+        <p class="button" id="bonus">Change Bonus</p>
+    </div>
+</div>
+</body>
+<script type="module" src="../javascripts/icrpg.js">
+</script>
+</html>
